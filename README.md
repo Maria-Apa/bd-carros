@@ -16,13 +16,24 @@ O Carro Fácil é o meu primeiro projeto, um banco de dados desenvolvido em MySQ
 - SQL (DDL).
 
 🛠️ Estruturas Presentes no Banco:
-1. Carros: Tabela que armazena os veículos disponíveis. <br>
+1. **Carros:** Tabela que armazena os veículos disponíveis. <br>
 Inclui atributos como modelo, marca, ano e placa.
-2. Clientes:
-Registra informações dos clientes cadastrados. <br>
+2. **Clientes:** Registra informações dos clientes cadastrados. <br>
 Como, nome, cpf, e-mail e telefone.
-3. Locações: 
-Armazena os registros de retirada e devolução de veículos. <br>
+3. **Locações:** Armazena os registros de retirada e devolução de veículos. <br>
 Possui chave estrangeira para carros e clientes.
-4. Pagamentos:
-Controla valores e datas de pagamentos referentes às locações.
+4. **Pagamentos:** Controla valores e datas de pagamentos referentes às locações.
+
+🗂️ Arquivos do Repositório:
+- **script.sql:** <br>
+Script completo gerado pelo Workbench contendo toda a estrutura do banco.
+- **Banco_de_dados_carrofacil.mwb:** <br>
+Arquivo do MySQL Workbench com o diagrama como modelo.
+- **Banco_de_dados_carrofacil.png:** <br>
+Imagem exportada do diagrama ER.
+- **README.md:** <br>
+Documentação do projeto.
+
+Por: Maria Aparecida Leite da Silva
+
+
